@@ -1,5 +1,4 @@
 def are_balanced_brackets(expr):
-    global list1
     list1 = list(expr)
     if list1.count('(') == list1.count(')'):
         if '+' in list1 or '-' in list1 or '*' in list1 or '/' in list1 == True:
