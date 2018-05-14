@@ -19,6 +19,7 @@ def attack():
         print('\nВи нанесли {} урону.'.format(USERATTACK)) 
         return(USERATTACK)
 
+#погана функція, бо бере глобальну змінну, знаю
 def enemyattack(attack):
     global USERHP
     CRIT = random.randint(1,100)
